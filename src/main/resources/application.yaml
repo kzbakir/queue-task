@@ -4,5 +4,5 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/queue
-    username: postgres
-    password: postgres
+    username: queue
+    password: queue
