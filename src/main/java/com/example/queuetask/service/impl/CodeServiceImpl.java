@@ -22,7 +22,7 @@ public class CodeServiceImpl implements CodeService {
     }
 
     /**
-     * Метод save - Store the last code in the database.
+     * save() - Store the last code in the database.
      *
      * @param lastCode      - Last Code (Current)
      * @param generatedCode - Last record in DB
@@ -36,7 +36,7 @@ public class CodeServiceImpl implements CodeService {
     }
 
     /**
-     * Метод generateNextCode - Returns the next code generation by series.
+     * generateNextCode() - Returns the next code generation by series.
      *
      * @param code - Last code
      * @return Next code generation by series.
